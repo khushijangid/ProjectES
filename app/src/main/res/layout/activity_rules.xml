@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ly"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/red2"
+        android:text="BASIC RULES"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:text="1. If a shot is successfully scored from outside of the three-point line, three points are awarded."
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:text="2. If a shot is successfully scored from inside of the three-point line, two points are awarded."
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="360dp"
+        android:text="3. If a team is awarded a technical foul then they will receive between one and three free shots. Each shot scored will be awarded with one point."
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="510dp"
+        android:text="4. After a team scores a basket, the ball is returned back to the opposition to start again."
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <ImageButton
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="629dp"
+        android:id="@+id/back"
+        android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+
+</RelativeLayout>

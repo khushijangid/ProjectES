@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow1"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="80dp"
+        android:text="Basketball Score"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="142dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Counter"
+        android:textSize="40dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="206dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="109dp"
+        android:layout_marginBottom="167dp"
+        android:text="NEW GAME"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/red2"
+        android:id="@+id/btn1"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="126dp"
+        android:layout_marginBottom="105dp"
+        android:background="@color/purple_500"
+        android:text="Rules"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:layout_width="390dp"
+        android:layout_height="228dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="221dp"
+        android:src="@drawable/hoop" />
+
+</RelativeLayout>
